@@ -1,0 +1,37 @@
+Hadoop Layman's Terms:
+      Hadoop grew out of a paper on MapReduce and GFS from Google, with most of its developments from the work of Doug Cutting and Yahoo. 
+      At the time of its coming, only few companies were capable of working with data at that colloasal scale and were the Silicon Valley Giants.
+      The rest were dependant on Sql solutions. Hadoop was released as an open source project through Apache, which as a result grew quickly in terms of 
+      Related projects, ecosystem, and adoption.
+      
+      Hadoop is a key feature to commercial data offerings today, mainly due to its huge community and ecosystem, as well as the ease of adoption. 
+      Hadoop is also virtually infinitely scaleable both in terms of Storage and Performance, so there is almost no big issues about future challenges when adopting Hadoop.
+      
+      According to Layman's terms, Hadoop is classified into two major fields. They are :
+                                                                  1) Storage
+                                                                  2) Processing
+     
+ Storage:
+        The storage part of the Hadoop components in terms of Layman's terms contains the HDFS . HDFS stands for 
+        "Hadoop Distributed File System". A typical HDFS is a Java-based file system that provides scalable and reliable data storage, and it was designed 
+        to span large clusters of collasal volumes (say 200 PB) of commodity servers (Say 4500 servers in numbers). 
+     
+ MapReduce:
+        A MapReduce is the processing component in the Hadoop ecosystem. It consists of Pig and Hive. 
+        A Mapreduce job usually splits the input data-set into independent chuncks which are later processed y the 
+        map tasks in a completely parallel manner. The framework sorts the outputs of the maps, which are then input to the reduce 
+        tasks.
+        
+     Pig:
+          Pig is the sub-component of a Hadoop ecosystem under the mapreduce component. Pig is a high-level platform for 
+          creating programs that run on Apache Hadoop. Pig can execute its jobs in MapReduce.  It abstracts the programming from 
+          the Java MapReduce idiom into a notation which makes MapReduce programming high level, similar to that of SQL for RDBMS.
+          
+     Hive:
+          Hive is also another sub-component of a Hadoop ecosystem under the MapReduce component. Apache HJive is a data warehouse infrastructure
+          built on top of Hadoop for providing data summarization, query and analysis. Hive gives an SQL like interface to query data stored in various
+          databases and file sysstems that integrate with Hadoop.
+          
+Difference between HIVE and PIG:
+          The major difference between Hive and Pig is that HIVE is used mainly by dataanalysts whereas PIG is used
+          by researchers and programmers. Hive is used for completely structured data whereas aPig is used for semi structured data.
